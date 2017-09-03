@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "602976380809",
+    "firebase_url": "https://api-project-602976380809.firebaseio.com",
+    "project_id": "api-project-602976380809",
+    "storage_bucket": "api-project-602976380809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602976380809:android:446af30ca23c9c2a",
+        "android_client_info": {
+          "package_name": "com.androidsession.hiddenchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602976380809-626ncgbu73iqkq70iueed9tqf375s89l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXCfnGxRk1Nhjw6xTkX-lpWzNAV_YVf5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
