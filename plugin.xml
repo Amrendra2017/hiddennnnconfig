@@ -13,7 +13,7 @@
     <license>MIT</license>
 
 	<platform name="android">
-		<js-module name="FirebasePlugin" src="firebase.js">
+		<js-module name="FirebasePlugin" src="www/firebase.js">
 			<clobbers target="FirebasePlugin" />
 		</js-module>
 		<config-file parent="/*" target="res/xml/config.xml">
