@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-firebase"
-    version="1.0.0">
+    version="*">
     
     <name>cordova-plugin-firebase</name>
     
@@ -11,6 +11,9 @@
     <author>Steffen Tröster</author>
     
     <license>MIT</license>
+	  <engines>
+	<engine name="cordova-android" version=">=4.0.0" />
+    </engines>
 
 	<platform name="android">
 		<js-module name="FirebasePlugin" src="www/firebase.js">
@@ -25,7 +28,7 @@
 		
 		<source-file src="google-services.json" target-dir="./"/>
 		
-		<framework src="com.google.android.gms:play-services-tagmanager:+" />
+		
 		<framework src="com.google.firebase:firebase-crash:+" />
 		<framework src="com.google.firebase:firebase-config:+" />
 	</platform>
