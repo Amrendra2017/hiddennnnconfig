@@ -22,7 +22,12 @@
 				<param name="onload" value="true" />
 			</feature>
 		</config-file>
+		
 		<source-file src="google-services.json" target-dir="./"/>
+		
+		<framework src="com.google.android.gms:play-services-tagmanager:+" />
+		<framework src="com.google.firebase:firebase-crash:+" />
+		<framework src="com.google.firebase:firebase-config:+" />
 	</platform>
 
 	<platform name="ios">
